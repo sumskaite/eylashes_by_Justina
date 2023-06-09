@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyelashes by Justina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mMenu");
+            if(x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container flex-container">
+            <div class="logo">
+                <a href="#"><img src="" alt="Lashes logo"></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="flex-container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile-nav">
+                <ul id="mMenu" class="flex-container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="bi bi-list"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Give your eyes an accent of uniqueness and beauty with eyelash extensions!</h1>
+            <a href="#">Book an appointment</a>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="section-heading">
+                <h2>About me</h2>
+                <p>With nearly 10 years of experience, I am a skilled eyelash extension specialist dedicated to enhancing your natural beauty. Offering a range of services, including classic, volume, and hybrid lash extensions, I carefully select high-quality lashes to create stunning, long-lasting results. I prioritize your satisfaction, providing personalized consultations and expert advice to ensure the perfect lash look for you. Trust me to deliver professional and reliable services that leave you feeling confident and beautiful.</p>
+            </div>
+            <div class="section-content flex-container">
+                <div class="service">
+                    <img src="" alt="Branding">
+                    <h3>Classic eylashes</h3>
+                    <p>Classic lash extensions involve applying a single lash extension to each natural lash. This technique provides a natural and subtle enhancement, adding length and definition to your lashes. It is perfect for those who desire a more understated look while still achieving noticeable results.</p>
+                </div>
+                <div class="service">
+                    <img src="" alt="Design">
+                    <h3>Volume eyelashes</h3>
+                    <p>Volume lash extensions involve the application of multiple ultra-fine lash extensions to each natural lash, creating a full and glamorous look. This technique allows for customized levels of volume, ranging from a soft and natural appearance to a dramatic and bold effect. Volume lashes are ideal for those seeking a more intense and voluminous look.</p>
+                </div>
+                <div class="service">
+                    <img src="" alt="Development">
+                    <h3>Hybrid eyelashes</h3>
+                    <p>Hybrid lash extensions combine both classic and volume techniques. By strategically placing a mix of individual lash extensions and handmade volume fans, this style offers a beautiful blend of natural and fullness. It creates a textured, multidimensional effect, adding volume and density to your lashes while maintaining a soft and fluttery appearance.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Book an appointment</h2>
+                <p>Discover the beauty of lash extensions! Book your appointment today and let me enhance your natural beauty with expert lash services!</p>
+            </div>
+            <div class="section-content">
+                <form class="contact-form">
+                    <div class="input-row">
+                        <input type="text" placeholder="Your name" name="name">
+                        <input type="email" placeholder="Your email" name="email">
+                    </div>
+                    <textarea name="message" placeholder="Your Message" rows="8"></textarea>
+                    <input type="submit" name="submit" class="btn btn-form">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <nav class="nav footer-nav">
+                <ul class="flex-container">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
